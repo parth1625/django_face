@@ -48,4 +48,3 @@ class OpencvAdmin(admin.ModelAdmin):
 
 
 admin.site.register(Opencv,OpencvAdmin)
-

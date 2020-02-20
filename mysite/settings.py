@@ -24,7 +24,7 @@ SECRET_KEY = 'u@l(zot8q%xa(&)e^s4b+eiyi%u_!s71zwjmgowmc3^31jx%kv'
 # SECURITY WARNING: don't run with debug turned on in production!
 DEBUG = True
 
-ALLOWED_HOSTS = ['djangofacerecognition.herokuapp.com']
+ALLOWED_HOSTS = ['127.0.0.1','djangofacerecognition.herokuapp.com']
 
 
 # Application definition

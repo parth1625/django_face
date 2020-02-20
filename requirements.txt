@@ -1,4 +1,5 @@
 Django==2.2.10
+gunicorn==20.0.4
 numpy==1.18.1
 opencv-python==4.2.0.32
 Pillow==7.0.0

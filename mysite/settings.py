@@ -11,13 +11,14 @@ https://docs.djangoproject.com/en/2.2/ref/settings/
 """
 
 import os
+import django_heroku
 
 # Build paths inside the project like this: os.path.join(BASE_DIR, ...)
 BASE_DIR = os.path.dirname(os.path.dirname(os.path.abspath(__file__)))
 
 # Quick-start development settings - unsuitable for production
 # See https://docs.djangoproject.com/en/2.2/howto/deployment/checklist/
-
+django_heroku.settings(locals())
 # SECURITY WARNING: keep the secret key used in production secret!
 SECRET_KEY = 'u@l(zot8q%xa(&)e^s4b+eiyi%u_!s71zwjmgowmc3^31jx%kv'
 
@@ -122,4 +123,3 @@ STATIC_ROOT = os.path.join(BASE_DIR, 'static')
 
 MEDIA_URL = '/media/'
 MEDIA_ROOT =  os.path.join(BASE_DIR, 'media') 
-
